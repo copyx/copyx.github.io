@@ -1,28 +1,29 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://copyx.github.io"
-title: Build The Life # site's title
-description: "A website with blog posts and pages" # used by search engines
+title: CopyX's Blog # site's title
+description: Development and Life Story # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Build The Life # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  title: CopyX's Blog # blog's title
+#  avatar: assets/img/avatar.svg
+#  avatar: assets/img/triangle.svg
+#  favicon: assets/favicon.ico
   gravatar: 7f924b955d9eda6451732db60a2ceb93 # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>$ build ./the_life</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     Hello World!
+  header_text_feature_image: assets/img/header_feature_img.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: copyx00@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -46,8 +47,8 @@ theme_settings:
   youtube:
 
   # Scripts / Features
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-121798779-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: copyx
   katex: true # Enable if using math markup
 
   special_page:
