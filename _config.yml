@@ -19,6 +19,7 @@ theme_settings:
      Hello World!
   header_text_feature_image: assets/img/header_feature_img.png
   footer_text: >
+   (C) 2018. 김진기 all rights reserved.<br>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
