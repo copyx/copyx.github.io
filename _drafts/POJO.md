@@ -1,0 +1,24 @@
+---
+layout: post
+title: POJO
+tags: [java, pojo, terminology, martinfowler, 용어, 자바, 포조, 마틴 파울러]
+excerpt_separator: <!--more-->
+---
+
+# POJO
+
+`Plain Old Java Object`
+
+Java EE 등의 중량 프레임워크들을 사용하게 되면서, 이에 종속된 **무거운** 객체를 만들게 된 것에 반발해서 사용하게 된 용어라고 한다. 2000년 9월에 마틴 파울러, 레베카 파슨, 조쉬 맥킨지 등이 사용하기 시작한 용어로 그 기원을 밝히는 내용이 재밌다.
+
+> "우리는 사람들이 자기네 시스템에 보통의 객체를 사용하는 것을 왜 그렇게 반대하는지 궁금하였는데, 간단한 객체는 폼 나는 명칭이 없기 때문에 그랬던 것이라고 결론지었다. 그래서 적당한 이름을 하나 만들어 붙였더니, 아 글쎄, 다들 좋아하더라고."
+>
+> \- 마틴 파울러
+>
+> [원문 보러가기](https://www.martinfowler.com/bliki/POJO.html)
+
+용어를 쓰기 시작한 이후, 주로 특정 자바 모델이나 기능, 프레임워크 등을 따르지 않은 자바 오브젝트를 지칭하는 말로 사용됐다.
+
+## 출처
+
+- [Plain Old Java Object - 위키백과](https://ko.wikipedia.org/wiki/Plain_Old_Java_Object)
