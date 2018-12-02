@@ -14,3 +14,8 @@ excerpt_separator: <!--more-->
 우리가 알고있는 클래스 변수에 대한 `Getter/Setter`, C/C++ 의 `Include guard` 등이 있다.
 
 이를 피하는 방법으로 `메타 프로그래밍`, `CoC(Convention over Configuration)`, `모델 기반 엔지니어링` 등을 사용할 수 있다.
+
+## 참조
+
+- [[텀즈] boilerplate ; 보일러 플레이트](http://www.terms.co.kr/boilerplate.htm)
+- [상용구 코드 - 위키백과](https://ko.wikipedia.org/wiki/상용구_코드)
