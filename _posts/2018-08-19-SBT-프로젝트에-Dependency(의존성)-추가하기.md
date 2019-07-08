@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "SBT 프로젝트에 Dependency(의존성) 추가하기"
 tags: [scala, sbt, dependency, project]
-excerpt_separator: <!--more-->
-
 ---
 
 회사 프로젝트에서 데이터 분석을 위해 Spark[^1]를 사용하게 됐다. "Learning Spark" 책으로 공부하고 있던 중, Scala App. 에 Spark 라이브러리를 추가해 사용해야하는 예제가 있었다.

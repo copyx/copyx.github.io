@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "자바스크립트 Primitive Type과 Reference Type의 차이"
 tags: [javascript, type, memory]
-excerpt_separator: <!--more-->
 ---
 
 # 변수형의 종류

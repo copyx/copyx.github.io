@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "\"동기적\" 이라는 단어의 의미"
 tags: [Program, Word, Meaning]
-excerpt_separator: <!--more-->
 ---
 
 ## 동기적 = 動機的

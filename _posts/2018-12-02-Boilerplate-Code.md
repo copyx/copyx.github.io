@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Boilerplate Code
 tags: [보일러 플레이트, boilerplate]
-excerpt_separator: <!--more-->
 ---
 
 # Boilerplate Code

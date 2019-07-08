@@ -1,10 +1,6 @@
 ---
-
-layout: post
 title: "Entity(개체)와 Value Object(값 객체)"
 tags: [entity, value_object, vo, 개체, 값객체]
-excerpt_separator: <!--more-->
-
 ---
 
 # Entity(개체)와 Value Object(값 객체)
