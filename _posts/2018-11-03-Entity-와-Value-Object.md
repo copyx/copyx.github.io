@@ -3,8 +3,6 @@ title: "Entity(개체)와 Value Object(값 객체)"
 tags: [entity, value_object, vo, 개체, 값객체]
 ---
 
-# Entity(개체)와 Value Object(값 객체)
-
 회사에서 개발하던 중 동료에게 `VO` 라는 용어를 듣게됐다. ~~(사실 오래전에 듣고 포스트를 정리했으나 까먹고 안올림;;)~~ 이에 대해 찾다보니 `VO` 와 `Entity` 가 함께 나오는 경우가 많아서 이를 정리했다.
 
 ## 식별성을 가지는 객체 : Entity

@@ -3,8 +3,6 @@ title: Boilerplate Code
 tags: [보일러 플레이트, boilerplate]
 ---
 
-# Boilerplate Code
-
 - 재사용 가능한 코드
 - 수정하지 않거나 최소한의 수정을 거쳐 여러 곳에 필수적으로 사용되는 코드
 - 다른 여러 곳에서 반복적으로 인용되는 코드
