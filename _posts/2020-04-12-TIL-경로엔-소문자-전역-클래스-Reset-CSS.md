@@ -13,7 +13,7 @@ tags: [TIL]
 
 ## Reset CSS
 
-[Reset CSS - meyerweb.com](https://meyerweb.com/eric/tools/css/reset/)
+[Reset CSS - meyerweb.com](https://meyerweb.com/eric/tools/css/reset/){: target="\_blank"}
 
 브라우저별로 다르게 적용되는 CSS 기본값들(h1 태그 폰트 크기, ul 태그의 리스트 점 모양 등)을 없애고 0으로 리셋하는 스타일시트.
 

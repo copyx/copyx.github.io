@@ -90,7 +90,7 @@ div ~ p {
 
 요소의 상태 변화 시 두 상태간의 전환을 정의하는 것.
 
-[transition property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/transition)
+[transition property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/transition){: target="\_blank"}
 
 ## Transformations
 
@@ -102,7 +102,7 @@ div ~ p {
 
 요소 모양이나 크기, 방향 등 좌표공간을 변환하는 효과.
 
-[transform property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/transform)
+[transform property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/transform){: target="\_blank"}
 
 ## Animations
 
@@ -133,7 +133,7 @@ div ~ p {
 
 `@keyframes`를 이용해 애니메이션을 정의해놓고 이를 적용할 수 있음. 내부에는 애니메이션의 시작과 끝이나 진행도에 따른 요소의 스타일 적용이나 전환이 가능.
 
-[animation property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/animation)
+[animation property - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/animation){: target="\_blank"}
 
 ## Media Queries
 
@@ -147,5 +147,5 @@ div ~ p {
 
 다양한 기기의 환경에 맞춰 보여줄 수 있도록 스크린 크기에 따라 다른 스타일을 적용시킬 수 있도록 도와줌.
 
-- [Media Queries - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries)
-- [@media - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/@media)
+- [Media Queries - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries){: target="\_blank"}
+- [@media - MDN](https://developer.mozilla.org/ko/docs/Web/CSS/@media){: target="\_blank"}

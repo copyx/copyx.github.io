@@ -148,7 +148,7 @@ Value | Description
 
 Flex는 **진행축(main axis)과 교차축(cross axis) 개념**이 있음. 진행축은 아이템들이 배치되는 방향, 교차축은 진행축과 90도 교차하는 방향을 축을 이야기함. 단순히 X축, Y축으로 이야기하지 않는 이유는 축의 방향도 바꿀 수 있기 때문임.
 
-[Flexbox 공부용 코드게임 - 이거 효과 좋음!](http://flexboxfroggy.com/)
+[Flexbox 공부용 코드게임 - 이거 효과 좋음!](http://flexboxfroggy.com/){: target="\_blank"}
 
 Property | Description
 :---|:---

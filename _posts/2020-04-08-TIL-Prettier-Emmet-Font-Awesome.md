@@ -42,7 +42,7 @@ div.box.big.red
 
 ## Font Awesome
 
-https://fontawesome.com/icons
+> [https://fontawesome.com/icons](https://fontawesome.com/icons){: target="\_blank"}
 
 웹사이트에서 벡터 아이콘과 소셜 로고들을 쉽게 이용할 수 있게 제공해주는 사이트.
 
