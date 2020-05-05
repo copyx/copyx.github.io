@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] `createElement()`, `appendChild()`, Node와 Element의 차이
-tags: [TAG]
+categories: [TAG]
 ---
 
 현재 Momentum Clone의 ToDo List 파트 진행 중

@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] object-fit
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## `object-fit: cover`

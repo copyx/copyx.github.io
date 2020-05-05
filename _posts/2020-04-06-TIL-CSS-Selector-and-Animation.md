@@ -1,6 +1,7 @@
 ---
 title: \[TIL\] CSS 선택자 & 애니메이션
 tags: [CSS]
+categories: [TIL]
 ---
 
 ## 선택자와 의사 선택자(Selectors and Psuedo Selectors)
@@ -25,7 +26,7 @@ HTML 요소의 속성을 이용해 선택.
 
 ```css
 div p {
-    background-color: green;
+  background-color: green;
 }
 ```
 
@@ -35,7 +36,7 @@ div p {
 
 ```css
 div > p {
-    background-color: green;
+  background-color: green;
 }
 ```
 
@@ -45,7 +46,7 @@ div > p {
 
 ```css
 div + p {
-    background-color: green;
+  background-color: green;
 }
 ```
 
@@ -55,7 +56,7 @@ div + p {
 
 ```css
 div ~ p {
-    background-color: green;
+  background-color: green;
 }
 ```
 
@@ -84,7 +85,7 @@ div ~ p {
 
 ```css
 .box {
-    transition: target duration timing-function delay;
+  transition: target duration timing-function delay;
 }
 ```
 
@@ -96,7 +97,7 @@ div ~ p {
 
 ```css
 .box {
-    transform: transform-functions;
+  transform: transform-functions;
 }
 ```
 
@@ -108,26 +109,26 @@ div ~ p {
 
 ```css
 .box {
-    animation: animation-name 1.5 infinite ease-in-out;
+  animation: animation-name 1.5 infinite ease-in-out;
 }
 
 @keyframes animation-name {
-    /* from {
+  /* from {
         transform: none;
     }
     to {
         transform: rotate(1turn) scale(.5, .5);
     } */
-    0% {
-        transform: none;
-    }
-    50% {
-        transform: rotate(1turn) scale(.5, .5);
-        background-color: royalblue;
-    }
-    100% {
-        transform: none;
-    }
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(1turn) scale(0.5, 0.5);
+    background-color: royalblue;
+  }
+  100% {
+    transform: none;
+  }
 }
 ```
 
@@ -139,9 +140,9 @@ div ~ p {
 
 ```css
 @media screen and (min-width: 320px) and (max-width: 640px) {
-    body {
-        background-color: slateblue;
-    }
+  body {
+    background-color: slateblue;
+  }
 }
 ```
 

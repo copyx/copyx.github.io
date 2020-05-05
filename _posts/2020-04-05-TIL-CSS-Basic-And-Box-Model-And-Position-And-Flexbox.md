@@ -1,6 +1,7 @@
 ---
 title: \[TIL\] CSS 기초 & Box Model & Position & Flexbox
 tags: [CSS]
+categories: [TIL]
 ---
 
 ## CSS(Cascading Style Sheets)란
@@ -65,7 +66,7 @@ ID | `#id {...}`
 
 ### Box Model
 
-요소를 만들면 사각형 Box 모양으로 공간을 차지하게됨. 
+요소를 만들면 사각형 Box 모양으로 공간을 차지하게됨.
 
 ![Box Model](/assets/img/box-model.png){: width="70%"}
 

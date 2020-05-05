@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] script 태그의 위치, console.dir
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## `<script>`를 `<body>`의 마지막에 써야하는 이유

@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] Vanilla JS, `var` vs `let`
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## 자바스크립트의 다양한 활용

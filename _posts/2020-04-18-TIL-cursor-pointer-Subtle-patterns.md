@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] `cursor:pointer`, Subtle Patterns
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## `cursor: pointer`

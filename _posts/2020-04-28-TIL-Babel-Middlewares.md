@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] Babel, Middlewares
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## [Babel](https://babeljs.io/){: target="\_blank"}

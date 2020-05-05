@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] 경로엔 소문자, 전역 클래스, Reset CSS
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## 모든 경로와 파일명은 소문자로 하자

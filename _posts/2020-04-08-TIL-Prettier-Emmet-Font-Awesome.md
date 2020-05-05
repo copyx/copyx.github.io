@@ -1,6 +1,7 @@
 ---
 title: \[TIL\] Prettier, Emmet, Font Awesome
 tag: [Tools]
+categories: [TIL]
 ---
 
 Nomad Coders의 카카오 클론 코딩 강좌 실습편 중 Status Bar를 실습하며 배운 내용.

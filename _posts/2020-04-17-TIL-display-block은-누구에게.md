@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] `display:block`은 누구에게?
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## `display: block` 속성

@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] github/gitignore, Git history 전체에서 특정 파일 제거하기
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## github/gitignore

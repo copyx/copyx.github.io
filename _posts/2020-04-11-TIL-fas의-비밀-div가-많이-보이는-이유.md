@@ -1,9 +1,9 @@
 ---
 title: \[TIL\] fas의 비밀, div가 많이 보이는 이유
-tags: [TIL]
+categories: [TIL]
 ---
 
-## Font Awesome 사용할 때 `fas` 클래스의 비밀이 풀렸다.
+## Font Awesome 사용할 때 `fas` 클래스의 비밀이 풀렸다
 
 `fas` = Font Awesome Solid
 

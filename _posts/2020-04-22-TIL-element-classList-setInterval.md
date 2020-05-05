@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] `element.classList`, `setInterval()`
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## `element.classList`

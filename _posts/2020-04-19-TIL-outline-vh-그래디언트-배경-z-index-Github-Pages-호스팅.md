@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] `outline`, `vh`, 배경에 그래디언트 적용, `z-index`, Github Pages로 호스팅
-tags: [TIL]
+categories: [TIL]
 ---
 
 오늘은 카톡 클론 수업 중 Settings, Chat CSS 적용!

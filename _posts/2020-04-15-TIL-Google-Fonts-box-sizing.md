@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] Google Fonts, box-sizing
-tags: [TIL]
+categories: [TIL]
 ---
 
 카톡 클론 수업에서 드디어 CSS 실습 시작!

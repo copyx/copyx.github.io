@@ -1,6 +1,6 @@
 ---
 title: \[TIL\] Local Storage, `removeChild()`, `new Image()`, 위치 정보 가져오기, `fetch()`
-tags: [TIL]
+categories: [TIL]
 ---
 
 ## Local Storage
