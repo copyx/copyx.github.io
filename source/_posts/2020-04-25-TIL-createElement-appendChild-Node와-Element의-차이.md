@@ -28,7 +28,7 @@ var child = parent.appendChild(child);
 - [Node](https://developer.mozilla.org/ko/docs/Web/API/Node) : DOM 구성의 기본 단위. 여러가지 DOM 타입들이 상속하는 인터페이스.
 - [Element](https://developer.mozilla.org/ko/docs/Web/API/Element) : Document 안의 모든 객체가 상속하는 가장 범용적인 기반 클래스.
 
-> ![DOM Types](../assets/img/dom_types.png)
+> ![DOM Types](https://i.imgur.com/3wzaRMz.png)
 > 출처 : [The Document Object Model](https://web.stanford.edu/class/cs98si/slides/the-document-object-model.html)
 
 **Node는 Element의 상위 타입이다.**

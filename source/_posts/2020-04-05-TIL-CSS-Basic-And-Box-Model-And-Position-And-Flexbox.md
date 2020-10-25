@@ -69,7 +69,7 @@ ID | `#id {...}`
 
 요소를 만들면 사각형 Box 모양으로 공간을 차지하게됨.
 
-![Box Model](/assets/img/box-model.png){: width="70%"}
+![Box Model](https://i.imgur.com/rt2xKaB.png){: width="70%"}
 
 Border | 테두리
 Padding | 테두리 안쪽 간격

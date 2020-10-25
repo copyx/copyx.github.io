@@ -70,13 +70,13 @@ linearLayout.addView(button7);
 
 텍스트 높이를 맞추기위한 리니어 레이아웃의 정렬 속성. `true`가 디폴트값. 따라서 뷰의 배치가 이상해질 수도 있음. 필요에 따라 선택적으로 사용하면됨.
 
-![baselineAligned 예시](/assets/img/baselineAligned.png)
+![baselineAligned 예시](https://i.imgur.com/4rVPxXD.png)
 
 ## 여유공간 분할
 
 `layout_weight` 속성을 이용해 남은 공간을 일정 비율로 분할 할당 가능.
 
-![layout_weight 예시](/assets/img/layout_weight.png)
+![layout_weight 예시](https://i.imgur.com/1nUhCte.png)
 
 But! 부모 공간의 분할이 아닌 여유 공간의 분할이라는 것!!!
 
