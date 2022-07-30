@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcopyx_github_io=self.webpackChunkcopyx_github_io||[]).push([[691],{4276:function(e,n,t){t.r(n),t.d(n,{default:function(){return c}});var u=t(7294);function i(){return u.createElement("div",null,"Text")}var r=t(1597);function c(){return u.createElement("div",null,u.createElement(i,null),u.createElement(r.Link,{to:"/info"},"info"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-ae4d29e8e4fb7a9974b4.js.map
