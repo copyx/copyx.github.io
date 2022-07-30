@@ -110,6 +110,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "./gatsby-config.ts",
+    "./gatsby-browser.ts",
     "./plugins/**/*"
   ]
 }
