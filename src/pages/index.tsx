@@ -1,17 +1,21 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import MainLayout from '@components/MainLayout';
 
-type PostInfo = {
-  id: string;
-  name: string;
+type Post = {
+  frontmatter: {
+    title: string;
+    date: string;
+  };
+  slug: string;
 };
 
 type IndexPageProps = {
   data: {
-    allFile: {
-      nodes: PostInfo[];
+    allMdx: {
+      nodes: Post[];
     };
   };
 };
@@ -20,8 +24,15 @@ export default function IndexPage({ data }: IndexPageProps) {
   return (
     <MainLayout>
       <ul>
-        {data.allFile.nodes.map(({ name }) => (
-          <li>📝 {name}</li>
+        {data.allMdx.nodes.map(({ frontmatter: { title, date }, slug }) => (
+          <li>
+            <article>
+              <h2>
+                <Link to={`/posts/${slug}`}>{title}</Link>
+              </h2>
+              <p>{date}</p>
+            </article>
+          </li>
         ))}
       </ul>
     </MainLayout>
@@ -29,11 +40,15 @@ export default function IndexPage({ data }: IndexPageProps) {
 }
 
 export const query = graphql`
-  query MyQuery {
-    allFile(filter: { sourceInstanceName: { eq: "posts" } }) {
+  query {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
+        frontmatter {
+          title
+          date(formatString: "YYYY-MM-DD")
+        }
         id
-        name
+        slug
       }
     }
   }
