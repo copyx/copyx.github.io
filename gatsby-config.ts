@@ -2,8 +2,8 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Copy X`,
-    description: `Copy and create`,
+    title: `CopyX's Record`,
+    description: `copy & create`,
     author: `@copyx`,
     siteUrl: `https://copyx.github.io`,
   },
@@ -46,6 +46,14 @@ const config: GatsbyConfig = {
         path: './src/pages/',
       },
       __key: 'pages',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: './posts/',
+      },
+      __key: 'posts',
     },
     {
       resolve: `gatsby-plugin-alias-imports`,

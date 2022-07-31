@@ -1,12 +1,40 @@
 import React from 'react';
-import Text from '@components/Text';
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
-export default function Index() {
+import MainLayout from '@components/MainLayout';
+
+type PostInfo = {
+  id: string;
+  name: string;
+};
+
+type IndexPageProps = {
+  data: {
+    allFile: {
+      nodes: PostInfo[];
+    };
+  };
+};
+
+export default function IndexPage({ data }: IndexPageProps) {
   return (
-    <div>
-      <Text />
-      <Link to="/info">info</Link>
-    </div>
+    <MainLayout>
+      <ul>
+        {data.allFile.nodes.map(({ name }) => (
+          <li>📝 {name}</li>
+        ))}
+      </ul>
+    </MainLayout>
   );
 }
+
+export const query = graphql`
+  query MyQuery {
+    allFile(filter: { sourceInstanceName: { eq: "posts" } }) {
+      nodes {
+        id
+        name
+      }
+    }
+  }
+`;
